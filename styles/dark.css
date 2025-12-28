@@ -15,6 +15,7 @@
   --main-text-color: #f1b2ce;
   --accent-color: #ff0070;
   --highlited-text-color: #000028;
+  --border-hover: 1px solid rgba(255, 0, 112, 0.4);
 }
 
 .theme-dark .decor-element {
@@ -36,7 +37,7 @@
 }
 
 .theme-dark .header__theme-menu-button:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.4);
+  outline: var(--border-hover);
 }
 
 .theme-dark .header__theme-menu-button:focus-visible {

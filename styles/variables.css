@@ -9,6 +9,7 @@
   --main-text-color: #F1B2CE;
   --accent-color: #FF0070;
   --highlited-text-color: #000028;
+  --border-hover: 1px solid rgba(255, 0, 112, 0.4);
   --main-text-size: 18px;
   --font-family: 'IBM Plex mono';
   --text-line-height: 1.3;

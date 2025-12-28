@@ -16,6 +16,7 @@
   --accent-color: #ff8dcb;
   --highlited-text-color: #353430;
   --border: 1px solid #353430;
+  --border-hover: 1px solid rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .decor-element {
@@ -37,7 +38,7 @@
 }
 
 .theme-light .header__theme-menu-button:hover {
-  outline: 1px solid rgba(50, 49, 45, 0.4);
+  outline: var(--border-hover);
 }
 
 .theme-light .header__theme-menu-button:focus-visible {
@@ -62,6 +63,7 @@
     --accent-color: #ff8dcb;
     --highlited-text-color: #353430;
     --border: 1px solid #353430;
+    --border-hover: 1px solid rgba(50, 49, 45, 0.4);
   }
 
   .decor-element {
@@ -83,7 +85,7 @@
   }
 
   .header__theme-menu-button:hover {
-    outline: 1px solid rgba(50, 49, 45, 0.4);
+    outline: var(--border-hover);
   }
 
   .header__theme-menu-button:focus-visible {

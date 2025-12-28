@@ -95,7 +95,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.4);
+  outline: var(--border-hover);
 }
 
 .header__theme-menu-button:focus {
