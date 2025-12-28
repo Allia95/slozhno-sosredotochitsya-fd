@@ -9,11 +9,11 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --page-bg-image: url('../images/cover-image-dark.png');
+  --page-bg-image: url("../images/cover-image-dark.png");
   --page-bg-color: #000028;
-  --cover-title-color: #DB00FF;
-  --main-text-color: #F1B2CE;
-  --accent-color: #FF0070;
+  --cover-title-color: #db00ff;
+  --main-text-color: #f1b2ce;
+  --accent-color: #ff0070;
   --highlited-text-color: #000028;
 }
 
@@ -27,8 +27,8 @@
 }
 
 .theme-dark .decorated-zone::after {
-  border-left: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
 }
 
 .theme-dark .header__theme-menu-button {
